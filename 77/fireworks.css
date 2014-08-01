@@ -28,8 +28,8 @@
 	background-image: linear-gradient(rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, 0.0) 100%) !important;
 	word-wrap: break-word;
 	word-break: normal;
-	width: 35%;
-	margin:120px;
+	/*width: 35%;*/
+	/*margin:120px;*/
 	margin-top: 130px;
 	/*width: 640px;*/
 }
@@ -37,10 +37,11 @@
 #l-head{
 	text-align: center;
 	font-size: 30px;
-	font-style: italic;
 }
 
 #l-body{
 	text-align: left;
 	font-size: 25px;
+	text-overflow: ellipsis;
+	word-break: break-all;
 }
