@@ -1,0 +1,46 @@
+#model {
+	/*width: 100%;*/
+	margin: 20px auto;
+	/*display: none;*/
+	z-index: 10000;
+	position: absolute;
+	top: 15%;
+	bottom: 15%;
+	left: 10%;
+	right: 10%;
+	height: auto;
+	background-image: linear-gradient(rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, 0.04) 100%) !important;
+}
+
+#rose {
+	height: 440px;
+	float: left;
+}
+
+#cotent {
+	float: left;
+	height: 440px;
+	margin: 10px 4px;
+	padding: 10px 3px;
+	font-family: "yahei";
+	font-size: 26px;
+	color: #FFF;
+	background-image: linear-gradient(rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, 0.0) 100%) !important;
+	word-wrap: break-word;
+	word-break: normal;
+	width: 35%;
+	margin:120px;
+	margin-top: 130px;
+	/*width: 640px;*/
+}
+
+#l-head{
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+}
+
+#l-body{
+	text-align: left;
+	font-size: 25px;
+}
